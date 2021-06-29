@@ -4,7 +4,7 @@
 [![devDependencies Status](https://david-dm.org/react-dnd/react-dnd-html5-backend/dev-status.svg)](https://david-dm.org/react-dnd/react-dnd-html5-backend?type=dev)
 [![peerDependencies Status](https://david-dm.org/react-dnd/react-dnd-html5-backend/peer-status.svg)](https://david-dm.org/react-dnd/react-dnd-html5-backend?type=peer)
 
-# React DnD HTML5 Backend with spppage builder (v-4) iframe support
+# React DnD HTML5 Backend with prism builder (v-4) iframe support
 
 The officially supported HTML5 backend for [React DnD](http://react-dnd.github.io/react-dnd/).
 See [the docs](http://react-dnd.github.io/react-dnd/docs/backends/html5) for usage information.

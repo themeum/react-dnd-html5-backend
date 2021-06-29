@@ -102,11 +102,11 @@ export class HTML5BackendImpl implements Backend {
 		}
 		this.window.__isReactDndBackendSetUp = true
 
-		const iframe = document.getElementById('sp-pagebuilder-view')
+		const iframe = document.getElementById('prism-builder-view')
 		if (iframe) {
 			iframe.addEventListener('load', () => {
 				if (this.window) {
-					const iwindow = this.window.frames[<any>'sp-pagebuilder-view'].window
+					const iwindow = this.window.frames[<any>'prism-builder-view'].window
 					if (iwindow) {
 						this.addEventListeners(iwindow as Element)
 					}
@@ -122,11 +122,11 @@ export class HTML5BackendImpl implements Backend {
 		}
 
 		this.window.__isReactDndBackendSetUp = false
-		const iframe = document.getElementById('sp-pagebuilder-view')
+		const iframe = document.getElementById('prism-builder-view')
 		if (iframe) {
 			iframe.addEventListener('load', () => {
 				if (this.window) {
-					const iwindow = this.window.frames[<any>'sp-pagebuilder-view'].window
+					const iwindow = this.window.frames[<any>'prism-builder-view'].window
 					if (iwindow) {
 						this.removeEventListeners(iwindow as Element)
 					}

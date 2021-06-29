@@ -890,12 +890,12 @@
         }
 
         this.window.__isReactDndBackendSetUp = true;
-        var iframe = document.getElementById('sp-pagebuilder-view');
+        var iframe = document.getElementById('prism-builder-view');
 
         if (iframe) {
           iframe.addEventListener('load', function () {
             if (_this2.window) {
-              var iwindow = _this2.window.frames['sp-pagebuilder-view'].window;
+              var iwindow = _this2.window.frames['prism-builder-view'].window;
 
               if (iwindow) {
                 _this2.addEventListeners(iwindow);
@@ -916,12 +916,12 @@
         }
 
         this.window.__isReactDndBackendSetUp = false;
-        var iframe = document.getElementById('sp-pagebuilder-view');
+        var iframe = document.getElementById('prism-builder-view');
 
         if (iframe) {
           iframe.addEventListener('load', function () {
             if (_this3.window) {
-              var iwindow = _this3.window.frames['sp-pagebuilder-view'].window;
+              var iwindow = _this3.window.frames['prism-builder-view'].window;
 
               if (iwindow) {
                 _this3.removeEventListeners(iwindow);
