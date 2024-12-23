@@ -20,5 +20,6 @@
      * Documentation code and examples may use `import React`
      */
     "allowSyntheticDefaultImports": false
-  }
+  },
+  "exclude": ["src/__tests__"]
 }

@@ -425,12 +425,12 @@ var HTML5BackendImpl = /*#__PURE__*/function () {
       }
 
       this.window.__isReactDndBackendSetUp = true;
-      var iframe = document.getElementById('prism-builder-view');
+      var iframe = document.getElementById('droip-canvas');
 
       if (iframe) {
         iframe.addEventListener('load', function () {
           if (_this2.window) {
-            var iwindow = _this2.window.frames['prism-builder-view'].window;
+            var iwindow = _this2.window.frames['droip-canvas'].window;
 
             if (iwindow) {
               _this2.addEventListeners(iwindow);
@@ -451,12 +451,12 @@ var HTML5BackendImpl = /*#__PURE__*/function () {
       }
 
       this.window.__isReactDndBackendSetUp = false;
-      var iframe = document.getElementById('prism-builder-view');
+      var iframe = document.getElementById('droip-canvas');
 
       if (iframe) {
         iframe.addEventListener('load', function () {
           if (_this3.window) {
-            var iwindow = _this3.window.frames['prism-builder-view'].window;
+            var iwindow = _this3.window.frames['droip-canvas'].window;
 
             if (iwindow) {
               _this3.removeEventListeners(iwindow);
